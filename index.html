@@ -41,8 +41,8 @@
             <li> page on picture takes to much space</li>
             <li>The site is responsive which is good to see. HTML5 elements are used. Just worth noting that section elements should ideally have a heading element. 5.8mb on the events page. Some filenames have a capital first letter. Filenames should be lowercase. The active_page class in the nav element doesn’t have a space between it and the link. So rather than a href="Events.html"class="active_page" rather just have a space a href="Events.html" class="active_page". Font stylesheets should be above your own stylesheet. Otherwise you reference a font before the browser knows about it. Also, best to combine Google stylesheets together. Some classnames have capital first letters. Best to be consistent and keep them lowercase. Indenting of nav element is off. Text-decoration and text-align are added twice for h1, h2, and h3. You can just change the font size in the media query if that’s the only thing changing. Header images have alt text saying they’re background images. In the report the student says they first wanted to put the image in via CSS. The main consideration for putting images as HTML or via CSS is whether or not it’s content. If it is content, then it should be in the HTML. If it’s for styling, then it should be added via CSS. The reason stated for moving to HTML was to avoid repeating styles. That’s a good thought, but you can do that simply by using classes. For example: header__img { background-size: cover; background-repeat: no-repeat; background-position: top; } header__home { background-image: url(“images/home.jpg”); } header__about{ background-image: url(“images/about.jpg”); } It’s important to note that you can add multiple classes to the same html element.</li>
             <li>make a contact form with JS</li>
-            <li>add a cool hover on hompege on the buttons</li>
-            <li>Change the imgae size</li>
+            <li>add a cool hover on homepage on the buttons</li>
+            <li>Change the image size</li>
         </ul>
         </div>
         <div><h3>How i changed it</h3></div>
@@ -55,8 +55,13 @@
             <p>Added a contact form to the contact page</p>
             <p>Changed some h1 to h2 so its only one unique h1 </p>
             <p>Changed all backgrounds on site to a visit_background, homepage_background etc. Fixed all background to image added in css instead of HTML. Changed the height ofthe background to min-heigth: 55vh so the background is takes less place.</p>
-            <p></p>
-        
+            <p>Changed the contact image to a more fitting image</p>
+            <p>added hover action on the CTA buttons on the homepage</p>
+            <p>changed all classes with big capital letters to small</p>
+            <p>Changed the input width in the contact form beacuse it whent out of the border when on mobile. i ficed this with makin a widt:100% on the class i put on the inputs in the contact form</p>
+            <p>Changed the size of the events image beacuse it was over 200kb</p>
+            <p>changed the colors from light green on a white page to a dark blue on the h3 on the explore page </p>
+            <p>removed the text font i have added beacuse it was to bold an looked to important to be a text</p>
         </div>
     </section>
 
