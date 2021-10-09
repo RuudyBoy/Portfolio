@@ -45,45 +45,53 @@
             <p> I made the site respionsive this way beacuse i made this work on my project exam. Therefore i did the same on the Cross-course CA to make it work here as well. I changed hte gridcolumns so i looked more clean when scrolling on the mobile phone. It didnt look good when the content was in two columns.</p>
             <p> I changed all of the images with the max-width:0% beacuse i think % is working really well, beacuse it always adjusts to the screen size or the content the image is in. So the image is responsive all the way. </p>
             <p> I changed the background image this way beacuse i wanted the backgound image to take less space so the people could see the content and purpose of the site right away</p>
-            <p>I changed the design and content on the game details page beacuse it was a site with little content. So i added content including image,text(description) and a h1 </p>
+            <p> I changed the design and content on the game details page beacuse it was a site with little content. So i added content including image,text(description) and a h1 </p>
         
         </div>
     </section>
 
     <section>
-        <div><h2>Project 2: Semester Project 1</h2>
+        <div>
+            <h2>Project 2: Semester Project 1</h2>
             <a href="https://github.com/RuudyBoy/Semester-Project"> Link to github</a>
             <a href="https://xenodochial-goldstine-7c0016.netlify.app/"> Link to netlify</a>
-        
         </div>
-        <div><h3>What was changed</h3>
+
+        <div>
+            <h3>What was changed</h3>
         <ul>
             <li> Only one unique H1 on each page</li>
             <li> lighter font for paragraphs</li>
-            <li> page on picture takes to much space</li>
-            <li>The site is responsive which is good to see. HTML5 elements are used. Just worth noting that section elements should ideally have a heading element. 5.8mb on the events page. Some filenames have a capital first letter. Filenames should be lowercase. The active_page class in the nav element doesn’t have a space between it and the link. So rather than a href="Events.html"class="active_page" rather just have a space a href="Events.html" class="active_page". Font stylesheets should be above your own stylesheet. Otherwise you reference a font before the browser knows about it. Also, best to combine Google stylesheets together. Some classnames have capital first letters. Best to be consistent and keep them lowercase. Indenting of nav element is off. Text-decoration and text-align are added twice for h1, h2, and h3. You can just change the font size in the media query if that’s the only thing changing. Header images have alt text saying they’re background images. In the report the student says they first wanted to put the image in via CSS. The main consideration for putting images as HTML or via CSS is whether or not it’s content. If it is content, then it should be in the HTML. If it’s for styling, then it should be added via CSS. The reason stated for moving to HTML was to avoid repeating styles. That’s a good thought, but you can do that simply by using classes. For example: header__img { background-size: cover; background-repeat: no-repeat; background-position: top; } header__home { background-image: url(“images/home.jpg”); } header__about{ background-image: url(“images/about.jpg”); } It’s important to note that you can add multiple classes to the same html element.</li>
-            <li>make a contact form with JS</li>
-            <li>add a cool hover on homepage on the buttons</li>
-            <li>Change the image size</li>
+            <li> Changed size of background image on all pages</li>
+            <li> Added a contact form to the contact page</li>
+            <li> Added a hover on buttons on the homepage</li>
+            <li> Changed so the contact image to be added via css intead of in html. And then make it smaller for the user to not scroll to much </li>
+            <li> Removed the text decoration and text align on the h1,h2 and h3 in media queries beacuse it isnt neccasary to have the same code in normal and media queries. So now the font size is the only thing changed in media queries.</li> 
+            <li> added space between the class and link in the nav element  </li>
+            <li> Changed the contact image to a more fitting image</li>
+            <li> Changed all classes with big capital letters to small</li>
+            <li> Changed the input width in the contact form beacuse it whent out of the border when on mobile</li>
+            <li> Changed the size of the events image beacuse it was over 200kb</li> 
+            <li> changed the colors from light green to a dark blue on the h3 on the explore page</li>
+            <li> </li>
         </ul>
         </div>
-        <div><h3>How i changed it</h3></div>
+
+        <div>
+            <h3>How i changed it</h3>
+            <p> Changed to only one unique h1 on the pages. i changed it by changing the some of the h1`s to h2 so it only remained one unique h1 on each page</p>
+            <p> Removed the text decoration and text align by simply removing it from the media queries for h1,h2, and h3. Changed font size so the size of the is different in media queries</p>
+            <p> Changed all backgrounds images on different pages to a class called visit_background, homepage_background etc. Fixed all background to be a image added in css instead of HTML. I did this by adding the class to a section , div or in the main.  Changed the height of the background to min-heigth: 55vh so the background takes less place.</p>
+            <p> i fixed the contect form width by makin a width:100% on the class i put on the inputs in the contact form</p>
+            <p> I changed the size of the events image by cropping the size to 200kb</p>
+            <p> made lighter font for paragraphs by removing the font added to the paragraphs. So no font is added on the paragraphs. </p>
+        </div>
         <div>
             <h3>Why i did it that way</h3>
-            <p>I changed the size of the homepage image beacuse it took tomuch place and the user had to scroll down to fint what they are looking for.</p>
-            <p>change the contact image o be added via css intead of in html. And then make it smaller for the user to not scroll to much</p>
-            <p>added space between the class and link in the nav element for a cleaner code</p>
-            <p>Removed the text decoration and text align on the h1,h2 and h3 bacuse i added it on normal and in mediaqueries. So now the font size is the only thing changed in media queris.</p>
-            <p>Added a contact form to the contact page</p>
-            <p>Changed some h1 to h2 so its only one unique h1 </p>
-            <p>Changed all backgrounds on site to a visit_background, homepage_background etc. Fixed all background to image added in css instead of HTML. Changed the height ofthe background to min-heigth: 55vh so the background is takes less place.</p>
-            <p>Changed the contact image to a more fitting image</p>
-            <p>added hover action on the CTA buttons on the homepage</p>
-            <p>changed all classes with big capital letters to small</p>
-            <p>Changed the input width in the contact form beacuse it whent out of the border when on mobile. i ficed this with makin a widt:100% on the class i put on the inputs in the contact form</p>
-            <p>Changed the size of the events image beacuse it was over 200kb</p>
-            <p>changed the colors from light green on a white page to a dark blue on the h3 on the explore page </p>
-            <p>removed the text font i have added beacuse it was to bold an looked to important to be a text</p>
+            <p>I changed the size of the background images beacuse it took to much place and the user had to scroll down to find the content.</p>
+            <p> added space between the class and link in the nav element beacuse i wanted a cleaner code </p>
+            <p> I changed the image on the contact page beacuse i felt the image didnt match the website.</p>
+            <p> I have added lighter font to the paragraphs beacuse it was to bold and looked to important to be a text</p>
         </div>
     </section>
 
@@ -93,31 +101,40 @@
             <a href="https://trusting-leavitt-9917cf.netlify.app/"> Link to netlify</a>
         
         </div>
-        <div><h3>What was changed</h3>
+        <div>
+            <h3>What was changed</h3>
         <ul>
-            
-            <li> Change the design on the homepage</li>
-            <li> More design on the spesific blogpostpage</li>
-            <li> Change the placement on the hamburger menu</li>
-            <li> Try to fix the show more button on blogpostpage</li>
+            <li> Removed the border radius from the slider buttons</li>
+            <li> Added a transition and bigger button when hovering the slider buttons</li>
+            <li> Added transition and padding when hovering over a post in the slider</li>
+            <li> Changed the size of the background image on the homepage under 1000px beacuse the image took to much space of the screen</li>
+            <li> More design on the spesific blogpostpage,  a h2 and date the blog was published</li>
+            <li> Changed the background heigth on the contact page</li>
+            <li> Changed the size of the contact from when on mobile</li>
         </ul>
         </div>
-        <div
-        ><h3>How i changed it</h3>
-        <p>removedthe border radius fomthe slider buttons since everything else on the homepage hasnt a border radius</p>
-        <p>added a transition and bigger button when hovering the slider buttons</p>
-        <p>added transition when hovering over a post in the slider</p>
-        <p>added also padding when hovering the post in the slider</p>
-        <p>changed the size of the background image on the homepage under 1000px beacuse the image took to much space of the screen</p>
-        <p>changed it from heigth 70vh to 50vh under 1000px</p>
-        <p>changed the background heigth on the contact page since it made uneccasary space on the page when its only a contactform on the page</p>
-        <p>changed the size of hte contact fromwhen onmobil since the form filled the entire screen and i wanted the form to have space on the sides</p>
-        <p>did this by addin 30px margin isntead of 10px and added max.width on 70% under 1000px</p>
-        <p>dont know how to get the image via embedon the spesific blogpost page so i added the content rendered twice. so on the first i took display noneon the text so only the image shows. On the next content rendered i took display none on the image. i did it like this beacuse i want to add a h2 beetween the image and the text. </p>
-        <p>added h2, a small text uder the image where it stands the author andwhen the site is published in the bottom- added this so i could add more details to the page</p>
+        <div>
+            <h3>How i changed it</h3>
+    
+        <p> Added hovering on the slider buttons by adding :hover in css for both buttons. added the transition 0.5s for the transiton and added a different color so the buttons change color when hovering </p>
+        <p> I added the transition and padding when hovering over the slider posts by adding transition 0.5s and padding to 10px in the :hover of the slider posts.</p>
+        <p> Changed the size of the background image by fixing the heigth from 70vh to 50vh under 1000px</p>
+        <p> Changed the background height on the contact page by fixing the heigth to ... </p>
+        <p> I changed the size of the contact form on mobile by addin 30px margin instead of 10px and added max width on 70% under 1000px</p>
+        <p> I dont know how to get the image via embed on the spesific blogpost page so i added the content rendered twice (content.rendered contains the image and text in the same file). On the first i took display none on the text so only the image shows. On the next content rendered i took display none on the image. Therefore i could add a h2 and a "by Christian Ruud" beetween the image and text. I couldnt do this if i only used the content.renderd once . </p>
+        <p> added h2, a small text uder the image where it stands the author andwhen the site is published in the bottom- added this so i could add more details to the page</p>
 
     </div>
-        <div><h3>Why i did it that way</h3></div>
+        <div>
+            <h3>Why i did it that way</h3>
+            <p> I removed the border-radius since everything else on the homepage hasnt a border radius. So it matched the design a lot better.</p>
+            <p> I added hovering on the sliderbuttons beacuse i felt that it will give more life to the site.</p>
+            <p> I added the transition and padding when hovering over the slider posts of the same reason as the slider buttons. i wanted it to feel more lively.</p>
+            <p> Changed hte height on the background image on the contact page since it made uneccasary space on the page when its only a contactform on the page</p>
+            <p> changed size of contact form on mobile since the form filled the entire screen and i wanted the form to have space on the sides</p>
+            <p> I added two content.rendered to get the h2 in beetween as mentioned over. I did it like this beacuse i didnt know how to get the h2 between when the image and text is the same file i call from the API.</p>
+        
+        </div>
     </section>
     </main>
 
